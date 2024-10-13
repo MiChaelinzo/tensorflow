@@ -61,7 +61,7 @@ REQUIRED_PACKAGES = [
     'keras_preprocessing >= 1.1.1, < 1.2',
     # TODO(mihaimaruseac): numpy 1.19.0 has ABI breakage
     # https://github.com/numpy/numpy/pull/15355
-    'numpy >= 1.16.0, < 1.19.0',
+    'numpy >= 1.16.0, < 2.2.0',
     'opt_einsum >= 2.3.2',
     'protobuf >= 3.9.2',
     'tensorboard >= 2.3.0, < 3',
